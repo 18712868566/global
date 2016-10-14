@@ -1,0 +1,29 @@
+/*原文链接： http: //caibaojian.com/web-app-rem.html*/
+html {
+	font - size: 20 px;
+}
+@media only screen and(min - width: 401 px) {
+	html {
+		font - size: 25 px!important;
+	}
+}
+@media only screen and(min - width: 428 px) {
+	html {
+		font - size: 26.75 px!important;
+	}
+}
+@media only screen and(min - width: 481 px) {
+	html {
+		font - size: 30 px!important;
+	}
+}
+@media only screen and(min - width: 569 px) {
+	html {
+		font - size: 35 px!important;
+	}
+}
+@media only screen and(min - width: 641 px) {
+	html {
+		font - size: 40 px!important;
+	}
+}

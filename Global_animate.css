@@ -1,0 +1,129 @@
+/*
+	战舰20160920 官网 - 图标导航 缩放动画
+*/
+
+.quickLink ul li a:hover b i{ opacity:1; filter:alpha(opacity=100); transition:opacity ease-in 0.2s 0.6s; -webkit-animation:sSelf 0.6s ease-in 1; -moz-animation:sSelf 0.6s ease-in 1; -ms-animation:sSelf 0.6s ease-in 1; -moz-animation:sSelf 0.6s ease-in 1; -webkit-animation:sSelf 0.6s ease-in 1; -o-animation:sSelf 0.6s ease-in 1; -ms-animation:sSelf 0.6s ease-in 1; animation:sSelf 0.6s ease-in 1;}
+
+@-webkit-keyframes sSelf{
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+	100%{-webkit-transform:scale(4);-moz-transform:scale(4);-ms-transform:scale(4);-o-transform:scale(4);transform:scale(4); opacity:0;}
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+@-moz-keyframes sSelf{
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+	100%{-webkit-transform:scale(4);-moz-transform:scale(4);-ms-transform:scale(4);-o-transform:scale(4);transform:scale(4); opacity:0;}
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+@-ms-keyframes sSelf{
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+	100%{-webkit-transform:scale(4);-moz-transform:scale(4);-ms-transform:scale(4);-o-transform:scale(4);transform:scale(4); opacity:0;}
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+@-o-keyframes sSelf{
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+	100%{-webkit-transform:scale(4);-moz-transform:scale(4);-ms-transform:scale(4);-o-transform:scale(4);transform:scale(4); opacity:0;}
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+@keyframes sSelf{
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+	100%{-webkit-transform:scale(4);-moz-transform:scale(4);-ms-transform:scale(4);-o-transform:scale(4);transform:scale(4); opacity:0;}
+	0%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+/*
+	战舰20160920 官网 - DownLoad图标 动画
+*/
+
+.downLoad:hover i{ -webkit-animation:sbottom 0.5s ease-out 1; -moz-animation:sbottom 0.5s ease-out 1; -ms-animation:sbottom 0.5s ease-out 1; -moz-animation:sbottom 0.5s ease-out 1; -webkit-animation:sbottom 0.5s ease-out 1; -o-animation:sbottom 0.5s ease-out 1; -ms-animation:sbottom 0.5s ease-out 1; animation:sbottom 0.5s ease-out 1;}
+@-webkit-keyframes stop{
+	0%{-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-ms-transform:translateY(-40px);-o-transform:translateY(-40px);transform:translateY(-40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-moz-keyframes stop{
+	0%{-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-ms-transform:translateY(-40px);-o-transform:translateY(-40px);transform:translateY(-40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-ms-keyframes stop{
+	0%{-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-ms-transform:translateY(-40px);-o-transform:translateY(-40px);transform:translateY(-40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-o-keyframes stop{
+	0%{-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-ms-transform:translateY(-40px);-o-transform:translateY(-40px);transform:translateY(-40px); opacity:0;}
+	100%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+@keyframes stop{
+	0%{-webkit-transform:translateY(-40px);-moz-transform:translateY(-40px);-ms-transform:translateY(-40px);-o-transform:translateY(-40px);transform:translateY(-40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-webkit-keyframes sbottom{
+	0%{-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-ms-transform:translateY(40px);-o-transform:translateY(40px);transform:translateY(40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-moz-keyframes sbottom{
+	0%{-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-ms-transform:translateY(40px);-o-transform:translateY(40px);transform:translateY(40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-ms-keyframes sbottom{
+	0%{-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-ms-transform:translateY(40px);-o-transform:translateY(40px);transform:translateY(40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+@-o-keyframes sbottom{
+	0%{-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-ms-transform:translateY(40px);-o-transform:translateY(40px);transform:translateY(40px); opacity:0;}
+	100%{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1); opacity:1;}
+}
+@keyframes sbottom{
+	0%{-webkit-transform:translateY(40px);-moz-transform:translateY(40px);-ms-transform:translateY(40px);-o-transform:translateY(40px);transform:translateY(40px); opacity:0;}
+	100%{-webkit-transform:translateY(0);-moz-transform:translateY(0);-ms-transform:translateY(0);-o-transform:translateY(0);transform:translateY(0); opacity:1;}
+}
+
+
+/*
+	轮播 中  战舰  显示动画
+*/
+.desktop .media__item-link:active .media-zoom-bg{opacity:1;filter:alpha(opacity=100);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}
+.media-zoom-bg{display:block;height:64.7px;left:50%;margin:-32.35px 0 0 -28px;opacity:0;filter:alpha(opacity=0);position:absolute;top:50%;-moz-transform:scale(10);-webkit-transform:scale(10);-o-transform:scale(10);-ms-transform:scale(10);transform:scale(10);-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;width:56px;z-index:2;}
+.desktop .media__item-link:hover .media-zoom-bg,
+.desktop .media__item-link:active .media-zoom-bg{opacity:1;filter:alpha(opacity=100);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}
+
+@-webkit-keyframes rotate{100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+@-moz-keyframes rotate{100%{-moz-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+@-o-keyframes rotate{100%{-o-transform:rotate(-360deg);transform:rotate(-360deg);}
+}
+@keyframes rotate{100%{transform:rotate(-360deg);}
+}
+
+@-webkit-keyframes contrast{50%{-webkit-filter:contrast(250%);}
+}
+@-moz-keyframes contrast{50%{-moz-filter:contrast(250%);filter:contrast(250%);}
+}
+@-o-keyframes contrast{50%{-o-filter:contrast(250%);filter:contrast(250%);}
+}
+@keyframes contrast{50%{-webkit-filter:contrast(250%);filter:contrast(250%);}
+}
+
+@-webkit-keyframes fill{0%, 30%, 70%, 100%{fill:rgba(0, 0, 0, .6);}
+50%{fill:rgba(56, 159, 192, .8);}
+}
+@-moz-keyframes fill{0%, 30%, 70%, 100%{fill:rgba(0, 0, 0, .6);}
+50%{fill:rgba(56, 159, 192, .8);}
+}
+@-o-keyframes fill{0%, 30%, 70%, 100%{fill:rgba(0, 0, 0, .6);}
+50%{fill:rgba(56, 159, 192, .8);}
+}
+@keyframes fill{0%, 30%, 70%, 100%{fill:rgba(0, 0, 0, .6);}
+50%{fill:rgba(56, 159, 192, .8);}
+}
+
+@-webkit-keyframes progress{0%{-webkit-transform:translateX(-30px);transform:translateX(-30px);}
+100%{-webkit-transform:translateX(30px);transform:translateX(30px);}
+}
+@-moz-keyframes progress{0%{-moz-transform:translateX(-30px);transform:translateX(-30px);}
+100%{-moz-transform:translateX(30px);transform:translateX(30px);}
+}
+@-o-keyframes progress{0%{-o-transform:translateX(-30px);transform:translateX(-30px);}
+100%{-o-transform:translateX(30px);transform:translateX(30px);}
+}
+@keyframes progress{0%{-webkit-transform:translateX(-30px);transform:translateX(-30px);}
+100%{-webkit-transform:translateX(30px);transform:translateX(30px);}
+}
